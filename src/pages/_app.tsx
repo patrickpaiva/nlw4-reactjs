@@ -3,9 +3,9 @@ import '../styles/global.css'
 
 function MyApp({ Component, pageProps }) {
   return (
-      <ChallengesProvider>
+    <ChallengesProvider>
         <Component {...pageProps} />
-      </ChallengesProvider>
+    </ChallengesProvider>
   )
 }
 
